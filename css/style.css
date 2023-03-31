@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  background-image: url(/img/Artboard\ 1.png);
+  background-repeat: no-repeat;
+}
+.head {
+  border: black solid 4px;
+  font-size: 24px;
+}
+.first {
+  display: inline-block;
+  /* border: blue solid 2px; */
+  width: 33%;
+  font-size: xx-large;
+}
+.second {
+  /* border: green solid 2px; */
+
+  display: inline-block;
+  width: 33%;
+}
+.third {
+  display: inline-block;
+  position: absolute;
+  right: 14px;
+  /* border: yellow solid 2px; */
+}
+.second li {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  margin: 16px;
+}
+.second a {
+  text-decoration: none !important;
+}
+.btn {
+  border: solid white 2px;
+  border-radius: 3px;
+  background-color: black;
+  padding: 6px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.second a:hover,
+.active,
+.btn:hover {
+  color: rgb(168, 167, 168);
+}
+.container {
+  border: solid white 4px;
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 12px;
+  padding: 12px;
+}
+.form-group input {
+  display: block;
+  width: 80%;
+  border: grey solid 3px;
+  margin: 11px auto;
+  border-radius: 9px;
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+#subbtn {
+  width: 85%;
+  padding: 10px;
+}
