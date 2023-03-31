@@ -4,8 +4,9 @@
   color: white;
 }
 body {
-  background-image: url(/img/Artboard\ 1.png);
-  background-repeat: no-repeat;
+   /* background-image: url(/img/Artboard\ 1.png); */
+  /* background-repeat: no-repeat; */
+  background-color: black;
 }
 .head {
   border: black solid 4px;
